@@ -6,18 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		11EDBFD12ED285FD000F0C08 /* cleaner_anigravityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFD02ED285FD000F0C08 /* cleaner_anigravityApp.swift */; };
-		11EDBFD32ED285FD000F0C08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFD22ED285FD000F0C08 /* ContentView.swift */; };
-		11EDBFD52ED285FF000F0C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EDBFD42ED285FF000F0C08 /* Assets.xcassets */; };
-		11EDBFD82ED285FF000F0C08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EDBFD72ED285FF000F0C08 /* Preview Assets.xcassets */; };
-		11EDBFDA2ED285FF000F0C08 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFD92ED285FF000F0C08 /* Persistence.swift */; };
-		11EDBFDD2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFDB2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodeld */; };
-		11EDBFE72ED28600000F0C08 /* cleaner_anigravityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFE62ED28600000F0C08 /* cleaner_anigravityTests.swift */; };
-		11EDBFF12ED28600000F0C08 /* cleaner_anigravityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFF02ED28600000F0C08 /* cleaner_anigravityUITests.swift */; };
-		11EDBFF32ED28600000F0C08 /* cleaner_anigravityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EDBFF22ED28600000F0C08 /* cleaner_anigravityUITestsLaunchTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		11EDBFE32ED28600000F0C08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,17 +25,8 @@
 
 /* Begin PBXFileReference section */
 		11EDBFCD2ED285FD000F0C08 /* cleaner_anigravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cleaner_anigravity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EDBFD02ED285FD000F0C08 /* cleaner_anigravityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaner_anigravityApp.swift; sourceTree = "<group>"; };
-		11EDBFD22ED285FD000F0C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		11EDBFD42ED285FF000F0C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11EDBFD72ED285FF000F0C08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		11EDBFD92ED285FF000F0C08 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		11EDBFDC2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cleaner_anigravity.xcdatamodel; sourceTree = "<group>"; };
 		11EDBFE22ED28600000F0C08 /* cleaner_anigravityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cleaner_anigravityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EDBFE62ED28600000F0C08 /* cleaner_anigravityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaner_anigravityTests.swift; sourceTree = "<group>"; };
 		11EDBFEC2ED28600000F0C08 /* cleaner_anigravityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cleaner_anigravityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EDBFF02ED28600000F0C08 /* cleaner_anigravityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaner_anigravityUITests.swift; sourceTree = "<group>"; };
-		11EDBFF22ED28600000F0C08 /* cleaner_anigravityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleaner_anigravityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +57,6 @@
 		11EDBFC42ED285FD000F0C08 = {
 			isa = PBXGroup;
 			children = (
-				11EDBFCF2ED285FD000F0C08 /* cleaner_anigravity */,
-				11EDBFE52ED28600000F0C08 /* cleaner_anigravityTests */,
-				11EDBFEF2ED28600000F0C08 /* cleaner_anigravityUITests */,
 				11EDBFCE2ED285FD000F0C08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,44 +69,6 @@
 				11EDBFEC2ED28600000F0C08 /* cleaner_anigravityUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		11EDBFCF2ED285FD000F0C08 /* cleaner_anigravity */ = {
-			isa = PBXGroup;
-			children = (
-				11EDBFD02ED285FD000F0C08 /* cleaner_anigravityApp.swift */,
-				11EDBFD22ED285FD000F0C08 /* ContentView.swift */,
-				11EDBFD42ED285FF000F0C08 /* Assets.xcassets */,
-				11EDBFD92ED285FF000F0C08 /* Persistence.swift */,
-				11EDBFDB2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodeld */,
-				11EDBFD62ED285FF000F0C08 /* Preview Content */,
-			);
-			path = cleaner_anigravity;
-			sourceTree = "<group>";
-		};
-		11EDBFD62ED285FF000F0C08 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				11EDBFD72ED285FF000F0C08 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		11EDBFE52ED28600000F0C08 /* cleaner_anigravityTests */ = {
-			isa = PBXGroup;
-			children = (
-				11EDBFE62ED28600000F0C08 /* cleaner_anigravityTests.swift */,
-			);
-			path = cleaner_anigravityTests;
-			sourceTree = "<group>";
-		};
-		11EDBFEF2ED28600000F0C08 /* cleaner_anigravityUITests */ = {
-			isa = PBXGroup;
-			children = (
-				11EDBFF02ED28600000F0C08 /* cleaner_anigravityUITests.swift */,
-				11EDBFF22ED28600000F0C08 /* cleaner_anigravityUITestsLaunchTests.swift */,
-			);
-			path = cleaner_anigravityUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EDBFD82ED285FF000F0C08 /* Preview Assets.xcassets in Resources */,
-				11EDBFD52ED285FF000F0C08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EDBFDA2ED285FF000F0C08 /* Persistence.swift in Sources */,
-				11EDBFD32ED285FD000F0C08 /* ContentView.swift in Sources */,
-				11EDBFDD2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodeld in Sources */,
-				11EDBFD12ED285FD000F0C08 /* cleaner_anigravityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EDBFE72ED28600000F0C08 /* cleaner_anigravityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EDBFF12ED28600000F0C08 /* cleaner_anigravityUITests.swift in Sources */,
-				11EDBFF32ED28600000F0C08 /* cleaner_anigravityUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -478,7 +407,6 @@
 		11EDBFFA2ED28600000F0C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,7 +426,6 @@
 		11EDBFFB2ED28600000F0C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -518,7 +445,6 @@
 		11EDBFFD2ED28600000F0C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CZPS8FB75D;
@@ -536,7 +462,6 @@
 		11EDBFFE2ED28600000F0C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CZPS8FB75D;
@@ -591,19 +516,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		11EDBFDB2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				11EDBFDC2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodel */,
-			);
-			currentVersion = 11EDBFDC2ED285FF000F0C08 /* cleaner_anigravity.xcdatamodel */;
-			path = cleaner_anigravity.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 11EDBFC52ED285FD000F0C08 /* Project object */;
 }
